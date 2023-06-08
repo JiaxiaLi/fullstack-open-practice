@@ -4,7 +4,7 @@
  * @Email: lijiaxia@3ncto.com
  * @FilePath: /part1/anecdotes/src/App.js
  * @LastEditors: lijiaxia
- * @LastEditTime: 2023-06-09 00:02:05
+ * @LastEditTime: 2023-06-09 00:10:59
  */
 import { useState } from "react";
 
@@ -14,7 +14,7 @@ const TheMostVoteAnecdote = (props)=>{
     return (
         <div>
             <h1>Anecdote with most votes</h1>
-            <p>{anecdote}</p>
+            <div>{anecdote}</div>
         </div>
     )
 }
@@ -57,8 +57,9 @@ const App = () => {
     }
 
     return (<div>
-        <p>{anecdotes[selected]}</p>
-        <p>has {votes[selected]} votes</p>
+        <h1>Anecdote of the day</h1>
+        <div>{anecdotes[selected]}</div>
+        <div>has {votes[selected]} votes</div>
         <button onClick={handleVoteClick}>vote</button>
         <button onClick={handleChangeAnecdotesClick}>next anecdotes</button>
         <TheMostVoteAnecdote anecdote={getTheMostVotes()}></TheMostVoteAnecdote>
