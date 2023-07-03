@@ -1,12 +1,11 @@
 /*
  * @Author: lijiaxia
- * @Date: 2023-06-09 15:03:17
+ * @Date: 2023-06-27 12:11:41
  * @Email: lijiaxia@3ncto.com
- * @FilePath: /part2/phonebook/src/index.js
+ * @FilePath: /part2/dataforcountries/src/index.js
  * @LastEditors: lijiaxia
- * @LastEditTime: 2023-07-03 23:57:12
+ * @LastEditTime: 2023-06-27 12:20:43
  */
-import './index.css'
 import React from "react";
 import ReactDOM from "react-dom/client";
 
